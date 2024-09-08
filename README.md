@@ -22,7 +22,7 @@ The Contact Management App allows users to manage their contacts, including addi
 
    - Navigate to the backend directory:
      ```bash
-     cd backend
+     cd contactsapp
      ```
    - Restore NuGet packages:
      ```bash
@@ -37,7 +37,7 @@ The Contact Management App allows users to manage their contacts, including addi
 
    - Navigate to the frontend directory:
      ```bash
-     cd frontend
+     cd clientapp
      ```
    - Install dependencies:
      ```bash
