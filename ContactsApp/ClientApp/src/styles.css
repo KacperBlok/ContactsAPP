@@ -1,0 +1,182 @@
+﻿/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: #ccc 1px solid;
+}
+
+    header h1 {
+        text-align: center;
+        margin: 0;
+    }
+
+    header .navbar-brand {
+        font-size: 36px;
+        color: #fff;
+    }
+
+    header .navbar-right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    header .welcome-message {
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease; /* Smooth transition for hover effect */
+}
+
+    button:hover {
+        background: #555;
+    }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+.error {
+    color: red;
+}
+
+.logout-button {
+    background: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease; /* Smooth transition for hover effect */
+}
+
+    .logout-button:hover {
+        background: darkred;
+    }
+
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .navbar nav {
+        display: flex;
+    }
+
+        .navbar nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+            .navbar nav a:hover {
+                text-decoration: underline;
+            }
+
+            .navbar nav a.active {
+                color: green;
+            }
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.form-box {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+    .nav-link:hover {
+        background: #555;
+    }
