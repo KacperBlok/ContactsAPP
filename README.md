@@ -91,10 +91,4 @@ The Contact Management App allows users to manage their contacts, including addi
 2. **Log in** to access contact management.
 3. **Manage contacts**: Add, edit, and delete contacts.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-If you have any questions about the app, contact [Your Name] ([Your Email]).
